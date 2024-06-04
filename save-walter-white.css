@@ -1,0 +1,176 @@
+html, body {
+    background: #1ba11a url(./img/tile.png) top left repeat;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline-block;
+    margin: 5px;
+}
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+#walter-container {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 965px;
+}
+#walter-container h1 {
+    color: #FFF;
+    font-family: times, helvetica, sans-serif;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 12px;
+}
+#walter-container h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+}
+#walter-container p {
+    font-weight: bold;
+    margin: 1em 20px;
+    line-height: 1.4em;
+    text-align: left;
+}
+#walter-container p.middle {
+    text-align: center;
+}
+#walter-container ul#second_row,
+#walter-container ul#fourth_row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+#walter-container #donate-container {
+    margin: 40px 0;
+}
+#walter-container #donations-so-far {
+    background: #000;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#donations-so-far p {
+    margin: 12px 0;
+}
+#donations-so-far #donation-counter {
+    margin-top: 32px;
+}
+#donations-so-far #donation-counter li {
+    background: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 6px;
+    vertical-align: middle;
+    text-align: center;
+    height: 50px;    
+}
+#donations-so-far #donation-counter li.push{
+    margin-left: 18px;
+}
+div.ribbons {
+    background: url(./img/bow_left.png) no-repeat 155px 70px;
+}
+div.ribbons p {
+    background: url(./img/bow_right.png) no-repeat 655px 70px;
+    padding: 22px;
+}
+.white {
+    color: #FFF;
+}
+.yellow {
+    color: #fff54f;
+}
+.dark-yellow {
+    color: #ffe107;
+}
+.small-copy {
+    font-size: 1em;
+}
+.medium-copy {
+    font-size: 1.2em;
+}
+.large-copy {
+    font-size: 1.5em;
+}
+.legal {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.legal a {
+    color: #fff;
+}
+.legal a + a {
+    margin-left: 40px;
+}
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.doacoes {
+    display: flex;
+    gap: 10px;
+}
+.doacoes p {
+    list-style: none !important;
+    background-color: white;
+    padding: 10px;
+    font-size: 2rem;
+}
+.espaco {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    #walter-container {
+        padding: 10px;
+    }
+    #walter-container h1 {
+        font-size: 1.5em;
+    }
+    #walter-container h3 {
+        font-size: 1em;
+    }
+    #walter-container p {
+        margin: 1em 10px;
+    }
+    #walter-container ul#second_row,
+    #walter-container ul#fourth_row {
+        flex-direction: column;
+    }
+    #donations-so-far {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+    #walter-container h1 {
+        font-size: 1.2em;
+    }
+    #walter-container h3 {
+        font-size: 0.9em;
+    }
+    #walter-container p {
+        font-size: 0.9em;
+    }
+    .large-copy {
+        font-size: 1.2em;
+    }
+}
